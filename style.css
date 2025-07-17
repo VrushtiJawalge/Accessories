@@ -1,0 +1,114 @@
+   body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            
+            background-color: rgba(168, 80, 95, 0.348); /* Warm tan */
+            padding: 20px;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            top: 0;
+            z-index: 1000;
+        }
+
+        #nav {
+            background: #1111118d;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+            z-index: 999;
+            display: flex;
+            justify-content: center; 
+            align-items: center;   
+            border-bottom: 1px solid #333;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 1.5rem;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav li {
+            display: inline-flex;
+            color: white;
+        }
+
+        .card {
+            background-color: beige;
+            padding: 40px;
+            margin: 30px auto;
+            border-radius: 10px;
+            max-width: 100%;
+        }
+
+        #div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 40px;
+        }
+
+        #text {
+            max-width: 50%;
+        }
+
+        #text h2 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            color: #000000;
+        }
+
+        #text p {
+            font-size: 1.1rem;
+            color: #000000;
+        }
+
+        #img {
+            max-width: 40%;
+            height: auto;
+            border-radius: 8px;
+        }
+         .images {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+        padding: 40px;
+        background-color: #f9f9f9;
+    }
+
+    .item {
+        width: 300px;
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        text-align: center;
+    }
+
+    .item img {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    .item p {
+        margin: 10px 0 0;
+    }
+
+    .name {
+        font-weight: bold;
+        font-size: 1.1rem;
+        color: #000;
+    }
+
+    .price {
+        color: #444;
+        font-size: 1rem;
+    }
