@@ -5,7 +5,7 @@
 
         header {
             
-            background-color: rgba(168, 80, 95, 0.348); /* Warm tan */
+            background-color: rgba(168, 80, 95, 0.348); 
             padding: 20px;
             color: rgb(0, 0, 0);
             text-align: center;
@@ -13,9 +13,9 @@
             z-index: 1000;
         }
 
-        #nav {
+         #nav {
             background: #1111118d;
-            padding: 15px;
+            padding: 10px;
             position: sticky;
             top: 0;
             z-index: 999;
@@ -38,19 +38,29 @@
             color: white;
         }
 
-        .card {
-            background-color: beige;
-            padding: 40px;
-            margin: 30px auto;
-            border-radius: 10px;
-            max-width: 100%;
-        }
+        nav a {
+        text-decoration: none;
+        color: white;
+        padding: 15px;       
+        display: block;                    
+        } 
 
+        nav a:hover {
+        background-color: rgba(168, 80, 95, 0.348);
+
+        } 
+        #shopnow{
+            border-radius: 10px;
+        }
+        button:hover {
+            background-color: green;
+        }
         #div {
             display: flex;
             justify-content: space-between;
             align-items: center;
             gap: 40px;
+            padding: 20px;
         }
 
         #text {
@@ -112,3 +122,8 @@
         color: #444;
         font-size: 1rem;
     }
+    footer a:hover {
+    background: #1111118d;
+    color: #f0c040;
+    text-decoration: underline;
+}
