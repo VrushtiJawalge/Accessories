@@ -1,11 +1,11 @@
    body {
-    margin: 0;
+     margin: 0;
     font-family: 'Poppins', sans-serif;
     background-color: #f9f9f9;
    }
    .header{
     background-color: rgba(246, 157, 172, 0.411);
-     border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
    }
 
 header {
@@ -54,8 +54,7 @@ nav ul li a {
 }
 
 #nav a:hover {
-    background-color: rgba(0, 0, 0, 0.05);
-    border-radius: 4px;
+    background-color:  rgba(243, 92, 195, 0.399);
 }
 
 
