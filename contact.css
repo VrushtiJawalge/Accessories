@@ -8,6 +8,11 @@
       box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
       overflow: hidden;
     }
+    .container:hover {
+    box-shadow: 0 10px 20px rgba(243, 92, 195, 0.437);
+    transform: translateY(-5px );
+}
+
 
     .contact-form, .contact-info {
       flex: 1;
